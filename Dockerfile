@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8:alpine
+FROM adoptopenjdk/openjdk8:alpine-jre
 LABEL maintainer="asiemer@gmx.de"
 
 RUN mkdir -p /h2; \
